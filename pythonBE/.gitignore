@@ -1,0 +1,44 @@
+# .gitignore
+
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment-related files
+.env
+venv/
+env/
+*.env
+
+# Logs
+*.log
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Dependency directories
+/lib/
+/libs/
+/node_modules/
+
+# Compiled files
+*.pyc
+*.class
+
+# Generated files and directories
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Configuration files
+*.cfg
+*.conf
+*.ini
+
+# Miscellaneous
+*.swp
+.DS_Store

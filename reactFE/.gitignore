@@ -1,0 +1,32 @@
+# .gitignore
+
+# Dependency directories
+node_modules/
+/dist/
+/build/
+.cache/
+yarn-error.log
+
+# Environment-related files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Compiled files
+*.log
+*.pnp.js
+*.pnp.js.map
+yarn.lock
+
+# Testing-related files
+coverage/
+
+# Miscellaneous
+*.swp
+.DS_Store

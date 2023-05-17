@@ -1,0 +1,23 @@
+# Shared .gitignore
+
+# Compiled Python files
+*.pyc
+
+# Logs
+*.log
+
+# Database files
+*.db
+
+# Compiled frontend assets
+/dist/
+
+# Environment-related files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+.DS_Store
